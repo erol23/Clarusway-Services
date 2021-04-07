@@ -129,6 +129,19 @@ input{
 #info{
     width: 85%;
 }
+textarea{
+    width: 85%;
+    padding: .4rem;
+}
+#send{
+    padding: 0.5rem 0.8rem;
+    background-color: rgb(245, 63, 18);
+    color: white;
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px;
+}
 footer{
     text-align: center;
     color: white;

@@ -1,0 +1,145 @@
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(53, 66, 74);
+    border-bottom: 0.2rem solid rgb(169, 80, 139);
+}
+h1{
+    font-size: 2rem;
+    color: white;
+}
+h1 span{
+    font-size: 2rem;
+    color: rgb(169, 80, 139);
+}
+li{
+    display: inline;
+    padding: 1rem;
+}
+li a{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(169, 80, 139);
+}
+#services{
+    color: rgb(169, 80, 139);
+}
+section{
+    background-image: url(/img/showcase.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section div {
+    text-align: center;
+}
+section p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+section h2{
+    font-size: 3rem;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 66, 74);
+    padding: 0.5rem 0;
+    color: white;
+}
+nav p{
+    padding: 1%;
+    font-size: 1.5rem;
+}
+nav div{
+    padding: 1%;
+    margin-top: 24px;
+}
+#button{
+    background-color: rgb(245, 63, 18);
+    color: white;
+    padding: 5px;
+}
+#button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px;
+}
+input{
+    padding: 5px;
+
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+#first-paragraph{
+    border: 1px solid black;
+    width: 68%;
+    background-color: rgb(230, 230, 230);
+    border: hidden;
+}
+#second-paragraph{
+    border: 1px solid black;
+    width: 68%;
+    background-color: rgb(230, 230, 230);
+    border: hidden;
+    margin-top: 0.5rem;
+}
+#last-paragraph{
+    border: 1px solid black;
+    width: 68%;
+    background-color: rgb(230, 230, 230);
+    border: hidden;
+    margin-top: 0.5rem;
+}
+#price{
+    opacity: 0.7;
+}
+#right-paragraph{
+    border: 1px solid black;
+    width: 25%;
+    background-color: rgb(53, 66, 74);
+    color: white;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 1.3rem;
+    border: hidden;
+    padding:15px;
+}
+#info{
+    width: 85%;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(53, 66, 74);
+    padding: 1%;
+    width: 98%;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    bottom: 0%;
+}
+footer img{
+    margin-top: 0.3rem;
+    width: 13rem;
+}
